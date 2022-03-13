@@ -7,8 +7,6 @@
  *then check the number if its negative
  *if n our number is neither negative nor positive the output should be zero
  *lastly the program to return 0
- */
-/**
  *Description: Get a random number and print the number
  * and if it is positive, negative, or zero
  * Return: 0
