@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include <stdio.h>
 /**
  * main - main block
@@ -16,3 +17,4 @@ c++;
 putchar('\n');
 
 return (0);
+}
