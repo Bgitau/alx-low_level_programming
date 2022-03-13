@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+/**
+ *
+ *this program will assign a number n to an integer then check if n is positive
+ *then check the number if its negative 
+ *if n our number is neither negative nor positive the output should be zero
+ *lastly the program to return 0
+ */
+
+int main(void)
+{
+  int n;
+
+  srand(time(0));
+  n = rand() - RAND_MAX / 2;
+  if (n > 0)
+    printf("%i is positive/n",n);
+      if  (n < 0)
+	prinf("%i is negative/n",n);
+	else if (n = 0)
+	  printf("%i is zero/n",n);
+
+      return (0);
+
+}
