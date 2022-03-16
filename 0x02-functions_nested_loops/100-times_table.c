@@ -39,7 +39,7 @@ _putchar('0' + (product % 10));
 }
 else
 {
-_putchar(' ')
+_putchar(' ');
 _putchar(' ');
 _putchar(product + '0');
 }
