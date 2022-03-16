@@ -1,12 +1,23 @@
-#include <main.h>
+#include <stdio.h>
 
 /**
- *this is a program to print put char
+ * main - prints _putchar
  *
+ * Return: 0 (Success)
  */
+
 int main(void)
 {
-  putchar("_putchar\n");
+  char ch;
+  putchar('_');
+  putchar('p');
+  putchar('u');
+  putchar('t');
+  putchar('c');
+  putchar('h');
+  putchar('a');
+  putchar('r');
+  putchar('\n');
 
-  return(0);
-  }
+  return (0);
+}
