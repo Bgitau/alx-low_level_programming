@@ -1,16 +1,24 @@
-include "main.h"
+#include "holberton.h"
 /**
- * print_line - print  a line
- * @n: numbers of straigh lines
- * Return: Always 0.
+ *print_line - prints a line n chars long.
+ *@n: length of line.
+ *
+ *Return: void.
  */
 void print_line(int n)
 {
-int l;
+int i;
 
-for (l = 1; l <= n; l++)
+if (n <= 0)
 {
-_putchar(95);
+_putchar('\n');
+}
+else
+{
+for (i = 1; i <= n; i++)
+{
+_putchar('_');
 }
 _putchar('\n');
+}
 }
