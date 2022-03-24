@@ -9,7 +9,7 @@
  * Return: 'dest' edited string
  */
 
-char *_strncpy(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)/** strcpy copies a string starting from index 0 */
 {
 int i;
 
