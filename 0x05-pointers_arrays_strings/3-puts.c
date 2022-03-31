@@ -11,9 +11,9 @@ int i;
 i = 0;
 while(*str!= '\0')
 {
-putchar(*str);
+_puts(char *str);
 ++i;
 ++str;
 }
-putchar('\n');
+_puts(int '\n');
 }
