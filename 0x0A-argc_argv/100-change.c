@@ -7,7 +7,7 @@
  *    * @argv: array containing arguments
  *     *
  *      * Return: 0
- *       */
+ */
 int main(int argc, char *argv[])
 {
 int cash, coins;
