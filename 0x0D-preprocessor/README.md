@@ -1,0 +1,1 @@
+This project is most about the compling process which starts from preprocessor followed by compilation, then the assembly then the linker
