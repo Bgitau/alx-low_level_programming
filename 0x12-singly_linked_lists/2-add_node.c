@@ -7,12 +7,12 @@
  */
 int _strlen(const char *str)
 {
-int i;
+  int i;
 
-while (str[i] != '\0')
-i++;
+  while (str[i] != '\0')
+    i++;
 
-return (i);
+  return (i);
 }
 
 /**
@@ -24,19 +24,18 @@ return (i);
  */
 list_t *add_node(list_t **head, const char *str)
 {
-list_t *temp;
+  list_t *temp;
 
-temp = malloc(sizeof(list_t));
-if (temp == NULL)
-return (NULL);
-  /**
-* temp now points to first element*/
-temp->next = *head;
-temp->str = strdup(str);
-temp->len = _strlen(str);
+  temp = malloc(sizeof(list_t));
+  if (temp == NULL)
+    return (NULL);
+  /* temp now points to first element*/
+  temp->next = *head;
+  temp->str = strdup(str);
+  temp->len = _strlen(str);
 
-*head = temp;
+  *head = temp;
 
-return (*head);
+  return (*head);
 
 }
