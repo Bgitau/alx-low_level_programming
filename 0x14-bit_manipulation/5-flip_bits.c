@@ -5,7 +5,7 @@
  * @n: the number to be converted to m
  * @m: number to be converted to
  *
- * Return: number of bits needed to be flipped to get from one number to another
+ * Return: no of bits needed to be flipped to get from one number to another
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
